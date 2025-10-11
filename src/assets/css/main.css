@@ -1,0 +1,49 @@
+/* ===== Reset & Body ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Buttons (Global) ===== */
+.button-click {
+  background-color: #28a745;
+}
+
+.button-click:hover {
+  background-color: #1e7e34;
+}
+
+/* ===== Navigation ===== */
+.primary-link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+.primary-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.primary-link a:hover {
+  color: #ffc107;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .primary-link {
+    flex-direction: column;
+  }
+}
